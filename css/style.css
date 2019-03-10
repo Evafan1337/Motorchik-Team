@@ -32,7 +32,7 @@ body {
 .header-page {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header-nav a {
@@ -76,10 +76,11 @@ body {
 }
 
 .main-header {
-    background: url("../img/ezgif.com-gif-maker.webp") no-repeat;
-    background-position: center;
+    background: url("../img/ezgif.com-gif-maker.webp") no-repeat center center;
+  /*  background-position: center;*/
     box-shadow: inset 0 0 118px rgba(0, 0, 0, 0.5);
-    background-size: 100%;
+  /*  background-size: 100%;*/
+    background-size: cover;
     color: white;
     text-shadow: 1px 1px 1px black, 0 0 1em black;
 }
@@ -319,10 +320,10 @@ body {
 
 .background-car {
     height: 425px;
-    background: url(../img/backgroundCar.jpg) no-repeat;
+    background: url(../img/backgroundCar.jpg) no-repeat center center;
     box-shadow: inset 0 0 118px rgba(0, 0, 0, 0.5);
-    background-size: 100%;
-    background-position: center;
+   /* background-size: cover;*/
+   /* background-position: center;*/
     background-position-y: -395px;
 }
 
@@ -343,6 +344,11 @@ body {
 
 .main-contacts-wrapper h2 {
     text-align: center;
+}
+
+.main-contacts-wrapper p
+{
+    line-height: 22px;
 }
 
 .main-contacts-wrapper a {
