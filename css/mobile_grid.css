@@ -5,6 +5,17 @@
 	{
 		width:auto;
 	}
+
+	.header-nav ul
+	{
+		padding-left: 0;
+	}
+
+	.header-nav a
+	{
+		padding:0;
+	}
+
 	.main-offers-wrapper:after,
 	.main-image-gear,
 	.main-image-book,
@@ -81,11 +92,22 @@
 	.four h3
 	{
 		text-align: center;
+		line-height: 26px;
 	}
 
 	.main-contacts-wrapper
 	{
 		text-align: justify;
+	}
+
+	.footer-first-row
+	{
+		display: block;
+	}
+
+	.footer-logo
+	{
+		display: none;
 	}
 
 }

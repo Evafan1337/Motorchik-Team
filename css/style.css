@@ -76,7 +76,8 @@ body {
 }
 
 .main-header {
-    background: url("../img/ezgif.com-gif-maker.webp") no-repeat center center;
+   /* background: url("../img/ezgif.com-gif-maker.webp") no-repeat center center;*/
+    background: url("../img/bgDima.jpg") no-repeat center center;
   /*  background-position: center;*/
     box-shadow: inset 0 0 118px rgba(0, 0, 0, 0.5);
   /*  background-size: 100%;*/
