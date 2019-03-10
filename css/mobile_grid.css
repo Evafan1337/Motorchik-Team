@@ -45,6 +45,12 @@
 		display: block;
 		margin: 0 auto;
 	}
+
+	.s-image
+	{
+    	width:310%;
+    	height: 310%;
+	}
 	
 	.main-image-book,
 	.main-offers-wrapper:after
