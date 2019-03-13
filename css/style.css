@@ -12,12 +12,19 @@ body {
     line-height: 20px;
 }
 
+main li
+{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
 .container {
     width: 940px;
     padding: 0 10px;
     margin: 0 auto;
 }
 
+.main-offers-wrapper a,
 .footer-second-row a,
 .main-contacts-wrapper a,
 .main-contacts-wrapper a:hover,
@@ -47,7 +54,7 @@ body {
     color: rgb(25, 25, 25);
     background: white;
 }
-
+ 
 .header-nav a:active {
     color: black;
     background: #f7ae14;
@@ -79,7 +86,8 @@ body {
    /* background: url("../img/ezgif.com-gif-maker.webp") no-repeat center center;*/
     background: url("../img/bgDima.jpg") no-repeat center center;
   /*  background-position: center;*/
-    box-shadow: inset 0 0 118px rgba(0, 0, 0, 0.5);
+   /* box-shadow: inset 0 0 118px rgba(0, 0, 0, 0.5);*/
+   box-shadow:0 0 0 940px rgba(0, 0, 0, 0.75) inset;
   /*  background-size: 100%;*/
     background-size: cover;
     color: white;
@@ -93,6 +101,7 @@ body {
 
 .main-header-wrapper h1 {
     text-align: center;
+    width:110%;
     line-height: 48px;
 }
 
@@ -101,10 +110,22 @@ body {
     margin: 0 auto;
 }
 
+.m-preview p
+{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
 .footer-wrapper,
 .main-software-wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.main-software-wrapper h2
+{
+    text-align: center;
 }
 
 .software-slider {
@@ -166,6 +187,32 @@ body {
     position: relative;
 }
 
+.main-offers-wrapper a
+{
+    display: block;
+    width:35%;
+    margin-left: 40px;
+    padding-top:15px;
+    padding-bottom: 15px;
+
+    text-align: center;  
+    text-decoration: none;
+    font-size: 20px;
+
+    background: rgba(25, 25, 25, 1);
+    color:white;
+}
+
+.main-offers-wrapper a:hover
+{
+    background: black;
+}
+
+.main-offers-wrapper a:active
+{
+    background: #f7ae14;
+}
+
 .main-offers-wrapper ul {
     width: 65%;
 }
@@ -173,11 +220,12 @@ body {
 .main-offers-wrapper:after {
     position: absolute;
     content: "";
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     left: 630px;
     top: 50px;
-    background: url(../img/pseudoVazScheme.jpg) no-repeat;
+    background: url(../img/svgLaptop.svg) no-repeat;
+    /*background: url(../img/pseudoVazScheme.jpg) no-repeat;*/
     background-size: 100%;
 }
 
@@ -353,11 +401,15 @@ body {
 }
 
 .main-contacts-wrapper a {
-    color: white;
-    display: inline-block;
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+    padding-top:15px;
+    padding-bottom: 15px;
     text-decoration: none;
-    border-radius: 5%;
-    padding: 5px;
+    text-align: center;
+    background: black;
+    color: white;
 }
 
 .main-contacts-wrapper a:hover {

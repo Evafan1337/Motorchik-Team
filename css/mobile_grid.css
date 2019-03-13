@@ -25,6 +25,11 @@
 		display:none;
 	}
 
+	.main-header-wrapper h1
+	{
+		width:100%;
+	}
+
 	.m-software
 	{
 		display: block;
@@ -68,6 +73,13 @@
 	{
 		display: none;
 	}
+
+	.main-offers-wrapper a
+	{
+		margin-left:0;
+		margin-top:15px;
+		width:100%;
+	}
 	
 	.main-offers-wrapper ul,
 	.first p,
@@ -95,9 +107,32 @@
 		line-height: 26px;
 	}
 
+	.first ul
+	{
+		margin:0 auto;
+		margin-top:30px;
+		padding-left:0;
+	}
+
 	.main-contacts-wrapper
 	{
 		text-align: justify;
+	}
+	
+	.background-car
+	{
+		background-position-y: -400px;
+		background-position-x: -500px;
+	}
+
+	.main-contacts-wrapper ul
+	{
+		padding-left:0;
+	}
+	
+	.main-contacts-wrapper a
+	{
+		width:100%;
 	}
 
 	.footer-first-row
