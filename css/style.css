@@ -110,6 +110,16 @@ main li
     margin: 0 auto;
 }
 
+.m-preview p:nth-child(1)
+{
+    margin-bottom: 0;
+}
+
+.m-preview p:nth-child(2)
+{
+    margin-top: 0;
+}
+
 .m-preview p
 {
     font-size: 24px;

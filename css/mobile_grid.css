@@ -6,6 +6,11 @@
 		width:auto;
 	}
 
+	.header-wrapper
+	{
+		justify-content: space-around;
+	}
+
 	.header-nav ul
 	{
 		padding-left: 0;
@@ -13,7 +18,8 @@
 
 	.header-nav a
 	{
-		padding:0;
+		padding:5px;
+		font-size: 18px;
 	}
 
 	.main-offers-wrapper:after,
@@ -25,6 +31,12 @@
 		display:none;
 	}
 
+	.main-header-wrapper
+	{
+		padding-bottom: 100px;
+	}
+
+	.m-preview,
 	.main-header-wrapper h1
 	{
 		width:100%;
@@ -51,7 +63,7 @@
 	
 	.software-slider
 	{
-		padding-top:30px;
+		padding-top:60px;
 		width:35%;
 	}
 
@@ -61,11 +73,25 @@
 		display: block;
 		margin: 0 auto;
 	}
-
+	
 	.s-image
 	{
     	width:310%;
     	height: 310%;
+    	pointer-events: none;
+	}
+
+	.right-click
+	{
+		width: 30px;
+		/*height: :60px;*/
+		top:15px;
+		left:260%;
+	}
+
+	.left-click
+	{
+		top:15px;
 	}
 	
 	.main-image-book,
@@ -121,8 +147,10 @@
 	
 	.background-car
 	{
-		background-position-y: -400px;
-		background-position-x: -500px;
+		background-position-y: -120px;
+    	background-position-x: -210px;
+    	background-size: 230%;
+    	height: 250px;
 	}
 
 	.main-contacts-wrapper ul
@@ -143,6 +171,13 @@
 	.footer-logo
 	{
 		display: none;
+	}
+
+	.big-images img
+	{
+		width: 55%;
+    	height: auto;
+    	margin-left: 45%;
 	}
 
 }
