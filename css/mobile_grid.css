@@ -100,6 +100,11 @@
 		display: none;
 	}
 
+	.main-offersList-wrapper li:before
+	{
+		left:-30px;
+	}
+
 	.main-offers-wrapper a
 	{
 		margin-left:0;

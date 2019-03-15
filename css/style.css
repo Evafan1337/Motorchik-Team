@@ -12,6 +12,24 @@ body {
     line-height: 20px;
 }
 
+ul
+{
+    list-style-type: none;
+    position: relative;
+}
+
+.main-offersList-wrapper li:before,
+.main-offers-wrapper li:before
+{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    left: 10px;
+    margin-top: 10px;
+    background: #f7ae14;
+}
+
 main li
 {
     margin-top:5px;
