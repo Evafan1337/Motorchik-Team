@@ -199,7 +199,7 @@ main li
 .m-software p {
     width: 40%;
     line-height: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .main-offersList,
@@ -277,7 +277,7 @@ main li
 .second p,
 .third p,
 .first p {
-    text-align: justify;
+    text-align: left;
     line-height: 22px;
 }
 
